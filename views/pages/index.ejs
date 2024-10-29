@@ -9,6 +9,14 @@
         <p>Aprendendo a trabalhar com arquivos EJS.</p>
       </div>
     </main>
+    <div>      
+      <ul>
+        <h2><%= summary.title %></h2>
+        <% summary.items.forEach(function(item) { %>
+          <li><%= item %></li>
+        <% }) %>
+      </ul>
+    </div>
     <%- include('../partials/footer'); %>
     <script src="/script.js"></script>
   </body>
