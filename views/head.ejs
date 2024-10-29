@@ -7,6 +7,7 @@
       --bg-block-01: #EEEEEE;
       --bg-block-02: #acacac;
       --color-10: #111111;
+      --color-20: #a6a6a1;
     }
 
     * {
@@ -27,9 +28,31 @@
       padding: 16px;
     }
 
-    a {
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
       color: var(--color-10);
       text-decoration: none;
+    }
+
+    header nav ul {
+      display: flex;
+      gap: 16px;
+      list-style: none;
+    }
+
+    header nav ul li a {
+      color: var(--color-20);
+      font-size: 18px;
+    }
+
+    .bold {
+      color: var(--color-10);
+      font-weight: bold;
     }
 
     main {
@@ -38,6 +61,15 @@
     
     main div {
       padding: 36px 16px;
+    }
+
+    main div h1 {
+      font-size: 42px;
+    }
+
+    main div p {
+      color: var(--bg-block-01);
+      font-size: 18px;
     }
 
     footer {
