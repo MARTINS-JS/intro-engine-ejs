@@ -16,14 +16,14 @@
 
 **Índice**
 
-  - [ ] **NodeJS + EJS**
+  - [X] **NodeJS + EJS**
     - [X] Criando o HTML
     - [X] Criando o servidor
     - [X] Separando partes do layout
     - [X] Nova página e menu
     - [X] Views e partials
     - [X] Passando um objeto para o ejs
-    - [ ] Foreach
+    - [X] Foreach
 
 <div style="">
   <p>
