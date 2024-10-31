@@ -10,7 +10,7 @@
 
 <div style="">
   <p>  
-    Estudando!
+    Neste projeto, apliquei alguns conceitos básicos da sintaxe do template engine EJS. Ao criar este repositório, meu objetivo foi compreender melhor a sintaxe e o uso dessa ferramenta para renderizar informações em HTML de maneira mais dinâmica, simples e organizada.
   </p>
 </div>
 
